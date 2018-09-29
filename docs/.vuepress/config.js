@@ -50,5 +50,8 @@ module.exports = {
       //    buttonText: "Refresh" 
       // }
     },
+
+    // disable the default search bar in nav menu
+    search: false
   }
 };
