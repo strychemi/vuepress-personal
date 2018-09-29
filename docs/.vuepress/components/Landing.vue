@@ -1,18 +1,40 @@
 <template>
-  <div class="home">
-    <div class="hero">
+<div class="home">
+  <div class="hero">
 
-      <h1>{{ data.heroText || $title || 'Hello' }}</h1>
+    <!-- Profile Image -->
+    <img
+      v-if="data.heroImage"
+      :src="$withBase(data.heroImage)"
+      alt="hero"
+    >
 
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
+    <!-- Title & Description -->
+    <h1>{{ data.heroText || $title || 'Hello' }}</h1>
 
-      
-      <div>{{ this.$page }}</div>
+    <p class="description">
+      {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+    </p>
+
+    <!-- Social Links -->
+    <div>
+      {{ data.socials }}
     </div>
     
   </div>
+
+  <!-- all markdown content after the YAML frontmatter will go in here -->
+  <Content custom/>
+
+  <!-- Footer -->
+  <div
+    class="footer"
+    v-if="data.footer"
+  >
+    {{ data.footer }}
+  </div>
+  
+</div>
 </template>
 
 <script>
@@ -26,5 +48,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.hero {
+  border-bottom: 1px solid #eaecef;
+}
 
+img {
+  border-radius: 150px;
+}
 </style>
