@@ -5,9 +5,33 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/projects/' },
-      { text: 'Guide', link: '/guide/' }
+      { text: 'Projects', link: '/projects/frontend' },
+      { text: 'Documentation', link: '/documentation/introduction' }
     ],
+    sidebar: {
+      '/projects/': [{
+        title: 'Projects',
+        collapsable: false,
+        children: [
+          // '',
+          'frontend',
+          'backend',
+          'data-viz',
+          'ruby-on-rails'
+        ]
+      }],
+      '/documentation/': [{
+        title: 'Documentation',
+        collapsable: false,
+        children: [
+          // '',
+          'introduction',
+          'getting-started',
+          'map-of-project',
+          'cutomize'
+        ]
+      }]
+    },
     // Below two properties sets the Github link in the navbar
     // Assumes GitHub. Can also be a full GitLab url.
     repo: 'strychemi/vuepress-strychemi',
