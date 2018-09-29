@@ -13,7 +13,6 @@ module.exports = {
         title: 'Projects',
         collapsable: false,
         children: [
-          // '',
           'frontend',
           'backend',
           'data-viz',
@@ -24,7 +23,6 @@ module.exports = {
         title: 'Documentation',
         collapsable: false,
         children: [
-          // '',
           'introduction',
           'getting-started',
           'map-of-project',
@@ -43,15 +41,20 @@ module.exports = {
     lastUpdated: 'Last Updated', // string | boolean
 
     serviceWorker: {
-      updatePopup: true // Boolean | Object, default to undefined.
       // If set to true, the default text config will be: 
       // updatePopup: { 
       //    message: "New content is available.", 
       //    buttonText: "Refresh" 
       // }
+      updatePopup: true // Boolean | Object, default to undefined.
     },
 
     // disable the default search bar in nav menu
     search: false
+  },
+
+  markdown: {
+    // disable automatic header anchor links being generated for headers
+    anchor: { permalink: false }
   }
 };
