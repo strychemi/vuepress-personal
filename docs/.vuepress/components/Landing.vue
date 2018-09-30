@@ -4,6 +4,7 @@
 
     <!-- Profile Image -->
     <img
+      class="profile-img"
       v-if="data.heroImage"
       :src="$withBase(data.heroImage)"
       alt="hero"
@@ -17,8 +18,15 @@
     </p>
 
     <!-- Social Links -->
-    <div>
-      {{ data.socials }}
+    <div class="socials">
+      <div v-for="item in data.socials">
+        <a :href="item.src" target="_blank">
+          <font-awesome-icon 
+            :icon="['fab', item.target]" 
+            size="3x"
+          />
+        </a>
+      </div>
     </div>
     
   </div>
@@ -48,11 +56,17 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.hero {
-  border-bottom: 1px solid #eaecef;
-}
+.hero
+  border-bottom: 1px solid #eaecef
 
-img {
-  border-radius: 150px;
-}
+.profile-img 
+  border-radius: 150px
+
+.socials
+  display: flex
+  flex-direction: row
+  justify-content: center
+  div
+    padding: 1rem
+
 </style>
