@@ -47,6 +47,7 @@
 
 <script>
 export default {
+  name: "Landing",
   computed: {
     data() {
       return this.$page.frontmatter;

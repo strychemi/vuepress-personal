@@ -5,20 +5,10 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/projects/frontend' },
+      { text: 'Projects', link: '/projects/' },
       { text: 'Documentation', link: '/documentation/introduction' }
     ],
     sidebar: {
-      '/projects/': [{
-        title: 'Projects',
-        collapsable: false,
-        children: [
-          'frontend',
-          'backend',
-          'data-viz',
-          'ruby-on-rails'
-        ]
-      }],
       '/documentation/': [{
         title: 'Documentation',
         collapsable: false,
