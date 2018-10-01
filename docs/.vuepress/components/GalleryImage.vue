@@ -81,7 +81,7 @@ export default {
   .caption
     color: white
     background-color: black
-    opacity: 0.64
+    opacity: 0.81
     display: block
     position: absolute
     top: 0
