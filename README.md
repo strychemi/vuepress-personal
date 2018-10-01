@@ -4,15 +4,17 @@ A VuePress template for my personal website.
 
 ## Getting Started
 
+Prerequisites: Node, Yarn, VuePress.
+
 ```bash
-// Clone the repo
+# Clone the repository
 git clone https://github.com/strychemi/vuepress-strychemi.git
 cd vuepress-strychemi
 
-// Install dependencies
+# Install dependencies
 yarn
 
-// Run
+# Run
 yarn docs:dev
 ```
 
