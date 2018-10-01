@@ -1,6 +1,6 @@
 ---
 layout: Landing
-heroImage: /cute_doggo.jpeg
+heroImage: /cute_doggo_0.jpeg
 socials:
 - target: github
   src: https://github.com/

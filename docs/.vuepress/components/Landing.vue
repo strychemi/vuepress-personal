@@ -68,6 +68,6 @@ export default {
   flex-direction: row
   justify-content: center
   div
-    padding: 1rem
+    padding: 1em
 
 </style>

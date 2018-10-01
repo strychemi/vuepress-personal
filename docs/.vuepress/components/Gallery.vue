@@ -3,17 +3,37 @@
   <!-- all markdown content after the YAML frontmatter will go in here -->
   <Content custom/>
 
+  <h2>Indoor</h2>
+  
   <div class="gallery">
     <GalleryImage 
-      v-for="project in data.projects"
+      v-for="project in data.indoor"
       :key="project.id"
+      :title="project.title"
+      :description="project.description"
+      :codeLink="project.codeLink"
+      :demoLink="project.demoLink"
+      :img="project.img"
     />
   </div>
 
-  <p>{{ data }}</p>
-  
-</div>
+  <h2>Outdoor</h2>
 
+  <div class="gallery">
+    <GalleryImage 
+      v-for="project in data.outdoor"
+      :key="project.id"
+      :title="project.title"
+      :description="project.description"
+      :codeLink="project.codeLink"
+      :demoLink="project.demoLink"
+      :img="project.img"
+    />
+  </div>
+  
+  <div class="footer"></div>
+
+</div>
 </template>
 
 <script>
