@@ -21,6 +21,7 @@
       >
         [Code]
       </a>
+      |
       <a 
         :href="demoLink"
         target="_blank"
