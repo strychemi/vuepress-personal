@@ -57,8 +57,11 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.hero
-  border-bottom: 1px solid #eaecef
+.home
+  .hero
+    border-bottom: 1px solid #eaecef
+    img
+      max-height: 200px
 
 .profile-img 
   border-radius: 150px

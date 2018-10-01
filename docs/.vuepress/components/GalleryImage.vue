@@ -42,11 +42,6 @@ export default {
       showCaption: false
     }
   },
-  methods: {
-    displayCaption() {
-      
-    }
-  },
   props: {
     title: {
       type: String,
