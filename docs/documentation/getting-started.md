@@ -36,5 +36,5 @@ yarn docs:build
 
 The default static assets will be in `.vuepress/dist` directory, which can be deployed to any static file server.
 
-You can configure where you want to static files to be built via the `dest` field in `.vuepress/config`. Check out [VuePress Config Reference](https://vuepress.vuejs.org/config/) for more info.
+You can configure where you want to generate the static files via the `dest` field in `.vuepress/config`. Check out [VuePress Config Reference](https://vuepress.vuejs.org/config/) for more info.
 

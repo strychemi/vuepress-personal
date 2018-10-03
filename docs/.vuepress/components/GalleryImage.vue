@@ -4,11 +4,13 @@
   @mouseover="showCaption = true" 
   @mouseout="showCaption = false" 
 >
+  <!-- Project Image -->
   <img
-      class=""
-      :src="$withBase(img)"
-      :alt="title"
+    :src="$withBase(img)"
+    :alt="title"
   >
+
+  <!-- Caption with project details appear on mouse hover -->
   <div class="caption" v-if="showCaption">
     <div class="caption-content">
       <h3>{{ title }}</h3>
@@ -71,6 +73,7 @@ export default {
 .gallery-image
   flex: 1 1 300px
   position: relative
+  overflow: hidden
   img
     width: 100%
     height: 100%

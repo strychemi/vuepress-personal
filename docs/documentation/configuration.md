@@ -1,3 +1,18 @@
+# Configuration
+
+Arguably, the most important file here is the config file, `.vuepress/config.js`, which simply exports a JavaScript object.
+
+The config file handles all the site-wide configurations, which include but are not limited to: service workers, navbar features, internationalization, markdown, plugins, etc. 
+
+A lot of these configuration options deal with features that come packaged with VuePress's default theme, which is what this site uses.
+
+The contents of this site's `.vuepress/config.js` is shown below.
+
+For more on how to configure the default theme, please check out [VuePress Default Theme Config Docs](https://vuepress.vuejs.org/default-theme-config/).
+
+For the complete API, please check out [VuePress Config Reference Docs](https://vuepress.vuejs.org/config/).
+
+```js
 module.exports = {
   title: 'Cute Doggo',
   description: 'im good boi',
@@ -12,7 +27,7 @@ module.exports = {
     // configure the sidebars for the site
     sidebar: {
       // we only want sidebars for the documentation page
-      // notice how the children correspond to each markdown file in the dir
+      // notice how the children correspond to each markdown file the in dir
       '/documentation/': [{
         title: 'Documentation',
         collapsable: false,
@@ -24,7 +39,6 @@ module.exports = {
           'home',               /* /documentation/home.html */
           'projects',           /* /documentation/projects.html */
           'documentation',      /* /documentation/documentation.html */
-          'styling',            /* /documentation/styling.html */
           'deploying'           /* /documentation/deploying.html */
         ]
       }]
@@ -58,3 +72,4 @@ module.exports = {
     anchor: { permalink: false }
   }
 };
+```

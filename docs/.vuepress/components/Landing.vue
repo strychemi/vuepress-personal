@@ -72,5 +72,4 @@ export default {
   justify-content: center
   div
     padding: 1em
-
 </style>
