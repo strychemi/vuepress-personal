@@ -16,8 +16,8 @@ From the [official VuePress Docs](https://vuepress.vuejs.org/guide/getting-start
 
 ```bash
 # Clone the repository
-git clone https://github.com/strychemi/vuepress-strychemi.git
-cd vuepress-strychemi
+git clone https://github.com/strychemi/vuepress-personal.git
+cd vuepress-personal
 
 # Install dependencies
 yarn

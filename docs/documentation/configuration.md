@@ -45,7 +45,7 @@ module.exports = {
     },
     // Below two properties sets the Github link in the navbar
     // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'strychemi/vuepress-strychemi',
+    repo: 'strychemi/vuepress-personal',
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'GitHub',
 

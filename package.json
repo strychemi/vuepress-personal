@@ -1,9 +1,9 @@
 {
-  "name": "vuepress-strychemi",
+  "name": "vuepress-personal",
   "version": "1.0.0",
   "description": "A VuePress Template",
   "author": "Andrew Baik <and.baik@gmail.com>",
-  "repository": "https://github.com/strychemi/vuepress-strychemi.git",
+  "repository": "https://github.com/strychemi/vuepress-personal.git",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"

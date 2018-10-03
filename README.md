@@ -1,10 +1,10 @@
-# vuepress-strychemi
+# vuepress-personal
 
 A VuePress template for my personal website.
 
-### [Live Demo](https://vuepress-strychemi.netlify.com/)
+### [Live Demo](https://vuepress-personal.netlify.com/)
 
-### [Full Docs](https://vuepress-strychemi.netlify.com/documentation/introduction.html)
+### [Full Docs](https://vuepress-personal.netlify.com/documentation/introduction.html)
 
 # Getting Started
 
@@ -18,8 +18,8 @@ Make sure you have the following already installed on your system:
 
 ```bash
 # Clone the repository
-git clone https://github.com/strychemi/vuepress-strychemi.git
-cd vuepress-strychemi
+git clone https://github.com/strychemi/vuepress-personal.git
+cd vuepress-personal
 
 # Install dependencies
 yarn
