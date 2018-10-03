@@ -2,7 +2,9 @@
 
 A VuePress template for my personal website.
 
-[Live Demo](https://vuepress-strychemi.netlify.com/)
+### [Live Demo](https://vuepress-strychemi.netlify.com/)
+
+### [Full Docs](https://vuepress-strychemi.netlify.com/documentation/introduction.html)
 
 # Getting Started
 
