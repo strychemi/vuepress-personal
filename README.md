@@ -1,6 +1,6 @@
 # vuepress-personal
 
-A VuePress template for my personal website.
+A VuePress template for personal websites.
 
 ### [Live Demo](https://vuepress-personal.netlify.com/)
 
