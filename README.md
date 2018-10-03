@@ -2,6 +2,8 @@
 
 A VuePress template for my personal website.
 
+[Live Demo](https://vuepress-strychemi.netlify.com/)
+
 # Getting Started
 
 ## Prerequisites
@@ -9,12 +11,6 @@ A VuePress template for my personal website.
 Make sure you have the following already installed on your system:
 - [Node.js](https://nodejs.org/en/) >= 8.0.0
 - [Yarn](https://yarnpkg.com/en/)
-
-::: warning COMPATIBILITY NOTE
-From the [official VuePress Docs](https://vuepress.vuejs.org/guide/getting-started.html):
-
-"It is currently recommended to use Yarn instead of npm when installing VuePress into an existing project that has webpack 3.x as a dependency. Npm fails to generate the correct dependency tree in this case."
-:::
 
 ## Installation
 
