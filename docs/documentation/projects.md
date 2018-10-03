@@ -219,7 +219,7 @@ Let's take a look at the `GalleryImage.vue` component next:
 
 ```
 
-The trick here is the highlighted line above: `flex: 1 1 300px`, which is equivalent to having `flex-grow` and `flex-shrink` each set to `1`, with `flex-basis` as `300px`. This means each `GalleryImage` component will grow and shrink at the same rate (to fill the available space) as each other with an initial main size of `300px`.
+The trick here is the highlighted line above: `flex: 1 1 300px`, which is equivalent to having `flex-grow` and `flex-shrink` each set to `1`, with `flex-basis` as `300px`. This means each `GalleryImage` component will grow and shrink at the same rate to fill the available space with an initial main axis size of `300px`.
 
 ### Gallery Image Caption
 
