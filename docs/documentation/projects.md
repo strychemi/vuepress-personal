@@ -102,7 +102,26 @@ The downside to this approach is that the markdown is parsed and converted to ht
 
 2. Tabulate your data in a JSON file and import it in a Vue component.
 
-```vue
+`projects.json`:
+```json
+{
+  "projects": [
+    {
+      "title": "Secret Project A",
+      "description": "A very secret project"
+    },
+    {
+      "title": "Rescue all good doggos",
+      "description": "This is the best project"
+    },
+    {
+      "title": "Save all life",
+      "description": "Do it"
+    }
+  ]
+}
+```
+```vue{12,16}
 <template>
 <div>
   <div v-for="project in projects">
@@ -127,7 +146,7 @@ export default {
 ::: tip
 I think this approach is also a viable alternative to front matter approach. However, this leans away from the markdown-centric architecture VuePress provides, thus seems more like an anti-pattern from a VuePress perspective.
 
-The front matter approach is probably more preferrable since the data is tabulated and is consumed on within the same file with VuePress's `$page.frontmatter` paradigm.
+The front matter approach is probably more preferrable since the data is tabulated and is consumed within the same file with VuePress's `$page.frontmatter` paradigm.
 
 This is more of a personal preferrence, so feel free try this out.
 :::
