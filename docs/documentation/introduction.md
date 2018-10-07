@@ -19,5 +19,5 @@ This template uses the pre-alpha (recommended & production stable) version of Vu
 
 Will revisit this once VuePress gets more stable after it goes beta.
 
-If you use googled VuePress to get to their docs, you may actually land on the alpha version (1.x) of their docs. As of writing this, they now have a nice green popup that lets you know this.
+If you googled VuePress to get to their docs, you may actually land on the alpha version (1.x) of their docs. As of writing this, they now have a nice green popup that lets you know this.
 :::
