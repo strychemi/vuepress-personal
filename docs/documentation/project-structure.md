@@ -37,7 +37,7 @@ All customization and configuration lives within this directory. Let's break thi
 │   ├── ...
 ├── config.js           # The heart of configuring the VuePress site is here
 ├── enhanceApp.js       # Optional: app-level enhancements (additional Vue plugins)
-├── override.styl        # Optional: change Vuepress's default theme colors here
+├── override.styl       # Optional: change Vuepress's default theme colors here
 ├── public              # Static assets go here. The build process will copy
 │   └── img             # everything in public to root of generated directory.
 │       ├── ...
