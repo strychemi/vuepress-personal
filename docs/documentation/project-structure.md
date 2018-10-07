@@ -12,7 +12,7 @@ docs
 │   │   ├── ...
 │   ├── config.js
 │   ├── enhanceApp.js
-│   ├── palette.styl
+│   ├── override.styl
 │   ├── public
 │   │   └── img
 │   │       ├── cute_doggo_0.jpeg
@@ -37,11 +37,11 @@ All customization and configuration lives within this directory. Let's break thi
 │   ├── ...
 ├── config.js           # The heart of configuring the VuePress site is here
 ├── enhanceApp.js       # Optional: app-level enhancements (additional Vue plugins)
-├── palette.styl        # Optional: change Vuepress's default theme colors here
+├── override.styl        # Optional: change Vuepress's default theme colors here
 ├── public              # Static assets go here. The build process will copy
 │   └── img             # everything in public to root of generated directory.
 │       ├── ...
-└── style.styl          # Optional: override or add styles here
+└── style.styl          # Optional: add styles here
 ```
 
 VuePress registers all `*.vue` files in `.vuepress/components` globally.

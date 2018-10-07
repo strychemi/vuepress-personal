@@ -8,9 +8,9 @@ A lot of these configuration options deal with features that come packaged with 
 
 The contents of this site's `.vuepress/config.js` is shown below.
 
-For more on how to configure the default theme, please check out [VuePress Default Theme Config Docs](https://vuepress.vuejs.org/default-theme-config/).
+For more on how to configure the default theme, please check out [VuePress Default Theme Config Docs](https://v0.vuepress.vuejs.org/default-theme-config/#homepage).
 
-For the complete API, please check out [VuePress Config Reference Docs](https://vuepress.vuejs.org/config/).
+For the complete API, please check out [VuePress Config Reference Docs](https://v0.vuepress.vuejs.org/config/).
 
 ```js
 module.exports = {

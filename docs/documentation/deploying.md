@@ -10,7 +10,7 @@ This will generate the files in the `.vuepress/dist` directory by default.
 
 The template is deployed to Netlify, but there are many options for deployment.
 
-Please refer to [VuePress Deploying docs](https://vuepress.vuejs.org/guide/deploy.html#github-pages) for more info.
+Please refer to [VuePress Deploying docs](https://v0.vuepress.vuejs.org/guide/deploy.html) for more info.
 
 
 ## Netlify

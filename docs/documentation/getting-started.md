@@ -7,7 +7,7 @@ Make sure you have the following already installed on your system:
 - [Yarn](https://yarnpkg.com/en/)
 
 ::: warning COMPATIBILITY NOTE
-From the [official VuePress Docs](https://vuepress.vuejs.org/guide/getting-started.html):
+From the [official VuePress Docs](https://v0.vuepress.vuejs.org/guide/getting-started.html):
 
 "It is currently recommended to use Yarn instead of npm when installing VuePress into an existing project that has webpack 3.x as a dependency. Npm fails to generate the correct dependency tree in this case."
 :::
@@ -36,5 +36,5 @@ yarn docs:build
 
 The default static assets will be in `.vuepress/dist` directory, which can be deployed to any static file server.
 
-You can configure where you want to generate the static files via the `dest` field in `.vuepress/config`. Check out [VuePress Config Reference](https://vuepress.vuejs.org/config/) for more info.
+You can configure where you want to generate the static files via the `dest` field in `.vuepress/config`. Check out [VuePress Config Reference](https://v0.vuepress.vuejs.org/config/) for more info.
 

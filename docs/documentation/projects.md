@@ -94,7 +94,7 @@ However, for my use case I found it to be the path of least resistance and easie
 
 There are other approaches for different use cases:
 
-1. [Content Excerpt](https://vuepress.vuejs.org/guide/custom-themes.html#content-excerpt): "If a markdown file contains a <!-- more --> comment, any content above the comment will be extracted and exposed as `$page.excerpt`. If you are building custom theme for blogging, this data can be used to render a post list with excerpts." 
+1. [Content Excerpt](https://vuepress.vuejs.org/theme/#content-excerpt): "If a markdown file contains a <!-- more --> comment, any content above the comment will be extracted and exposed as `$page.excerpt`. If you are building custom theme for blogging, this data can be used to render a post list with excerpts." 
 
 ::: warning
 The downside to this approach is that the markdown is parsed and converted to html string in `$page.excerpt`, which adds more abstraction on top of the data. Works for the stated use case, but otherwise it may get in the way if you go this route for a non-intended scenario.

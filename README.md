@@ -38,5 +38,12 @@ yarn docs:build
 
 The default static assets will be in `.vuepress/dist` directory, which can be deployed to any static file server.
 
-You can configure where you want to static files to be built via the `dest` field in `.vuepress/config`. Check out [VuePress Config Reference](https://vuepress.vuejs.org/config/) for more info.
+You can configure where you want to static files to be built via the `dest` field in `.vuepress/config`. Check out [VuePress Config Reference](https://v0.vuepress.vuejs.org/config/) for more info.
 
+# NOTE
+
+This template uses the pre-alpha (recommended & production stable) version of VuePress (0.14.4). , so the many of the links in the docs will refer to the v0 version of the docs. 
+
+Will revisit this once VuePress gets more stable after it goes beta.
+
+If you use googled VuePress to get to their docs, you may actually land on the alpha version (1.x) of their docs. As of writing this, they now have a nice green popup that lets you know this.
