@@ -1,6 +1,8 @@
 ---
 layout: Landing
 heroImage: /img/cute_doggo_0.jpeg
+actionText: See my work
+actionLink: /projects/
 socials:
 - target: github
   src: https://github.com/

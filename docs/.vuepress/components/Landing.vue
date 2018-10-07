@@ -17,6 +17,18 @@
       {{ data.tagline || $description || 'Welcome to your VuePress site' }}
     </p>
 
+    <!-- Call to Action -->
+    <p
+        class="action"
+        v-if="data.actionText && data.actionLink"
+    >
+      <a
+        class="action-button"
+        :href="$withBase(data.actionLink)"
+        rel="noopener noreferrer"
+      >{{ data.actionText }} →</a>
+    </p>
+
     <!-- Social Links -->
     <div class="socials">
       <div v-for="item in data.socials">
