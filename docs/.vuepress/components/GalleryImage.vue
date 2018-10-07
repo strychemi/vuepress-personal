@@ -17,14 +17,15 @@
       <p>{{ description }}</p>
       <!-- https://developers.google.com/web/tools/lighthouse/audits/noopener -->
       <a 
+        v-if="codeLink"
         :href="codeLink"
         target="_blank"
         rel="noopener noreferrer"
       >
         [Code]
       </a>
-      |
       <a 
+        v-if="demoLink"
         :href="demoLink"
         target="_blank"
         rel="noopener noreferrer"
@@ -63,7 +64,7 @@ export default {
     },
     img: {
       type: String,
-      default() { return ''; }
+      default() { return '/img/cute_doggo_1.jpeg'; }
     }
   }
 }
