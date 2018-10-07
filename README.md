@@ -42,7 +42,7 @@ You can configure where you want to static files to be built via the `dest` fiel
 
 # NOTE
 
-This template uses the pre-alpha (recommended & production stable) version of VuePress (0.14.4). , so the many of the links in the docs will refer to the v0 version of the docs. 
+This template uses the pre-alpha (recommended & production stable) version of VuePress (0.14.4), so the many of the links in the docs will refer to the v0 version of the docs. 
 
 Will revisit this once VuePress gets more stable after it goes beta.
 

@@ -15,7 +15,7 @@ If this is your first exposure to VuePress, I highly recommend heading over to t
 If you find any issues/errors/tips, feel free to open an issue on [Github](https://github.com/strychemi/vuepress-personal). Any feedback is appreciated.
 
 ::: warning
-This template uses the pre-alpha (recommended & production stable) version of VuePress (0.14.4). , so the many of the links in the docs will refer to the v0 version of the docs. 
+This template uses the pre-alpha (recommended & production stable) version of VuePress (0.14.4), so the many of the links in the docs will refer to the v0 version of the docs. 
 
 Will revisit this once VuePress gets more stable after it goes beta.
 
